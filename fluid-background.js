@@ -217,7 +217,7 @@ function startGUI() {
 		.add(
 			{
 				fun: function () {
-					window.open('https://github.com/PavelDoGreat/WebGL-Fluid-Simulation');
+					window.open('#');
 					ga('send', 'event', 'link button', 'github');
 				},
 			},
@@ -252,7 +252,7 @@ function startGUI() {
 			{
 				fun: function () {
 					ga('send', 'event', 'link button', 'discord');
-					window.open('https://discordapp.com/invite/CeqZDDE');
+					window.open('#');
 				},
 			},
 			'fun'
@@ -269,7 +269,7 @@ function startGUI() {
 			{
 				fun: function () {
 					ga('send', 'event', 'link button', 'app');
-					window.open('http://onelink.to/5b58bn');
+					window.open('#');
 				},
 			},
 			'fun'
