@@ -280,7 +280,7 @@ function startGUI() {
 	var appIcon = document.createElement('span');
 	app.domElement.parentElement.appendChild(appIcon);
 	appIcon.className = 'icon app';
-
+	gui.close();
 	if (isMobile()) {
 		gui.close();
 	}
